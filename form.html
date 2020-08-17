@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+	<h1 id="Request">Опитування</h1>
+	<p>Тут фанати клубу можуть пройти невелике опитування</p>
+	<form method="POST" action="https://formspree.io/xyynaggr">
+		<input type="text" placeholder="Ім'я*" name="user" required>
+		<br>
+		<br>
+		<input type="tel" placeholder="Номер телефону*" name="telephone" required>
+		<br>
+		<br>
+		<input type="text" placeholder="Країна">
+		<br>
+		<h4>Оцініть, наскільки Вам подобається нова форма команди за п'ятибальною шкалою:</h4>
+		<p>
+			<input name="нова форма" type="radio" value="1">
+    1
+   </p>
+			<p>
+				<input name="нова форма" type="radio" value="2">
+    2
+   </p>
+				<p>
+					<input name="нова форма" type="radio" value="3">
+    3
+   </p>
+					<p>
+						<input name="нова форма" type="radio" value="4">
+    4
+   </p>
+						<p>
+							<input name="нова форма" type="radio" value="5">
+    5
+   </p>
+							<h4>Хто, на Вашу думку, буде головним лідером команди у наступному сезоні:</h4>
+							<input type="checkbox" name="Голанд" value="Голанд">
+   Голанд
+							<br>
+							<br>
+							<input type="checkbox" name="Ройс" value="Ройс">
+   Ройс
+							<br>
+							<br>
+							<input type="checkbox" name="Санчо" value="Санчо">
+   Санчо
+							<br>
+							<br>
+							<input type="checkbox" name="Вітсель" value="Вітсель">
+   Вітсель
+							<br>
+							<br>
+							<input type="checkbox" name="Брандт" value="Брандт">
+   Брандт
+							<br>
+							<br>
+							<h4>Яких результатів, на Ваш погляд, досягне команда у наступному сезоні?</h4>
+							<select name="результати наступного сезону">
+   <option>Виграє чемпіонат</option>
+   <option>Потрапить в Лігу Чемпіонів</option>
+   <option>Буде боротися за єврокубкові місця</option>
+   <option>Закінчить чемпіонат в середині таблиці</option>
+   </select>
+							<br>
+							<br>
+							<h4>Ваш коментар:</h4>
+							<textarea name="коментар"></textarea>
+							<br>
+							<br>
+							<input type="submit">
+    </form>
+							<br>
+							<footer>
+								<nav>
+									<a href="index.html">На головну</a>
+								</nav>
+							</footer>
+</body>
+
+</html>
